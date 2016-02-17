@@ -1,0 +1,58 @@
+@import reset.css
+html
+  -webkit-font-smoothing: antialiased
+
+$black: #0f0f0f
+$green1: #26724B
+$green2: #318B5D
+$green3: #47B07A
+$green4: #50CE8E
+$gold: #EBB762
+$serif: "garvis-pro", serif
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+body
+  color: $black
+  font-family: $sans
+  font-size: 18px
+  border: 10px solid $gold
+  min-height: 100vh
+  background: url('/assets/img/floral.jpg')
+  background-size: cover
+  
+h1 
+  font-size: 3em
+  letter-spacing: -.02em
+
+a
+  //color: inherit
+  color: rgba(0,0,0,.6)
+  text-decoration: none
+  font-weight: bold
+  //box-shadow: inset 0 -5px 0 #b4e7f8
+  transition: box-shadow .2s ease-in-out
+
+
+a:hover
+  box-shadow: inset 0 -5px 0 $gold
+
+#inner
+  width: 100%
+  max-width: 1400px
+  margin: 4em auto
+  padding: 3em
+  background: #fff
+  p.description
+    font-family: $serif
+    font-size: 1em
+    margin-top: .8em
+    text-transform: uppercase
+    letter-spacing: .25em
+    color: rgba(0,0,0,.45)
+  p.content
+    font-family: $serif
+    font-size: 1.2em
+    line-height: 1.5em
+    margin-top: .8em
+    width: 100%
+    max-width: 800px
