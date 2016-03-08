@@ -21,6 +21,7 @@ h1 {
 a {
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
+  font-style: italic;
   font-weight: bold;
   transition: box-shadow 0.2s ease-in-out;
 }
