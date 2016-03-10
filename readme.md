@@ -1,3 +1,2 @@
-# Personal website for Kaytee Stephens.
+# Personal website for Michael Champlin
 
-Special thanks to https://github.com/alvarotrigo/fullPage.js
