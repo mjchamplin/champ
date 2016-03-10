@@ -7,15 +7,21 @@ body {
   color: #0f0f0f;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  border: 10px solid #EBB762;
   min-height: 100vh;
-  background: url("/assets/img/floral.jpg");
-  background-size: cover;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4.5em;
   letter-spacing: -0.02em;
+  font-family: "garvis-pro", serif;
+  line-height: 1em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
 }
 
 a {
@@ -32,26 +38,44 @@ a:hover {
 
 #inner {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 4em auto;
   padding: 3em;
   background: #fff;
 }
 #inner p.description {
-  font-family: "garvis-pro", serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   margin-top: 0.8em;
   text-transform: uppercase;
-  letter-spacing: 0.25em;
   color: rgba(0, 0, 0, 0.45);
 }
-#inner p.content {
+#inner .content {
   font-family: "garvis-pro", serif;
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 1.6em;
+  line-height: 1.6em;
   margin-top: 0.8em;
   width: 100%;
-  max-width: 800px;
+}
+
+.content-list li {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding: 0.2em 0 0.2em 15%;
+  font-size: 0.8em;
+}
+.content-list li p {
+  margin-bottom: 0;
+  display: inline;
+  font-weight: 100;
+  font-style: italic;
+}
+.content-list li h3 {
+  display: inline;
+}
+.content-list li:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+  transition: background-color 0.2s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */

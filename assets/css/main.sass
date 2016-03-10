@@ -15,15 +15,23 @@ body
   color: $black
   font-family: $sans
   font-size: 18px
-  border: 10px solid $gold
   min-height: 100vh
-  background: url('/assets/img/floral.jpg')
-  background-size: cover
-  
-h1 
-  font-size: 3em
-  letter-spacing: -.02em
+  //border: 10px solid $gold    
+  //background: url('/assets/img/floral.jpg')
+    background-size: cover
 
+h1 
+  font-size: 4.5em
+  letter-spacing: -.02em
+  font-family: $serif
+  line-height: 1em
+  font-weight: normal
+  margin-bottom: .5em
+
+h2
+  font-family: $sans
+  font-size: .8em
+    
 a
   //color: inherit
   color: rgba(0,0,0,.6)
@@ -39,21 +47,39 @@ a:hover
 
 #inner
   width: 100%
-  max-width: 1400px
+  max-width: 1200px
   margin: 4em auto
   padding: 3em
   background: #fff
+  p
+    //margin-bottom: 1em
   p.description
-    font-family: $serif
+    font-family: $sans
     font-size: 1em
     margin-top: .8em
     text-transform: uppercase
-    letter-spacing: .25em
+    //letter-spacing: .25em
     color: rgba(0,0,0,.45)
-  p.content
+  .content
     font-family: $serif
-    font-size: 1.2em
-    line-height: 1.5em
+    font-size: 1.6em
+    line-height: 1.6em
     margin-top: .8em
     width: 100%
-    max-width: 800px
+  
+.content-list
+  li
+    width: 100%
+    border-top: 1px solid #ccc
+    padding: .2em 0 .2em 15%
+    font-size: .8em
+    p
+      margin-bottom: 0
+      display: inline
+      font-weight: 100
+      font-style: italic
+    h3
+      display: inline
+  li:hover
+    background-color: rgba(0,0,0,.03)
+    transition: background-color .2s ease-in-out
