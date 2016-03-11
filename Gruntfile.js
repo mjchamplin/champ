@@ -94,7 +94,7 @@ module.exports = function(grunt) {
     },
     sshexec: {
       deploy: {
-        command: 'cd public_html/app && git pull && rsync -avzh build/ ../',
+        command: 'cd /var/www/champlin/public_html/app && git pull && rsync -avzh build/ ../',
         options: {
           host: '<%= secret.host %>',
           username: '<%= secret.username %>',

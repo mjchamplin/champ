@@ -22,12 +22,13 @@ body
     background-size: cover
 
 h1 
-  font-size: 3.5em
+  font-size: 3em
   letter-spacing: -.02em
   font-family: $serif
-  line-height: 1em
+  line-height: 1.2em
   font-weight: normal
   margin-bottom: .5em
+  text-align: center
 
 h2
   font-family: $sans
@@ -52,7 +53,7 @@ a:hover
   margin: 4em auto
   padding: 5em
   background: #fff
-  box-shadow: 0px 0px 15px 0px rgba(221,221,221,1)
+  //box-shadow: 0px 0px 15px 0px rgba(221,221,221,1)
   p
     //margin-bottom: 1em
   p.description
@@ -86,7 +87,37 @@ a:hover
 #introduction
   p
     margin-bottom: 2rem
+#headshot
+  max-width: 300px
+  height: auto
+  margin: 0 auto
+  text-align: center
+  display: block
+  border-radius: 50%
+  margin-bottom: 2em
+#red-right-angle
+  width: 900px
+  height: 900px
+  background: #4A90E2
+  opacity: .5
+  position: absolute
+  left: -450px
+  top: -450px
+  z-index: -1
+  transform: rotate(-45deg)
+#yellow-right-angle
+  width: 2200px
+  height: 900px
+  background: #B8E986
+  opacity: .5
+  position: absolute
+  left: -1250px
+  top: -450px
+  z-index: -1
+  transform: rotate(-74deg)
+  
+
       
-  li:hover
-    background-color: rgba(0,0,0,.03)
-    transition: background-color .2s ease-in-out
+li:hover
+  background-color: rgba(0,0,0,.03)
+  transition: background-color .2s ease-in-out
