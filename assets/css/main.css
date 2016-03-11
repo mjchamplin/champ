@@ -8,10 +8,11 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   min-height: 100vh;
+  background: #eee;
 }
 
 h1 {
-  font-size: 4.5em;
+  font-size: 3.5em;
   letter-spacing: -0.02em;
   font-family: "garvis-pro", serif;
   line-height: 1em;
@@ -40,8 +41,9 @@ a:hover {
   width: 100%;
   max-width: 1200px;
   margin: 4em auto;
-  padding: 3em;
+  padding: 5em;
   background: #fff;
+  box-shadow: 0px 0px 15px 0px #dddddd;
 }
 #inner p.description {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -52,7 +54,7 @@ a:hover {
 }
 #inner .content {
   font-family: "garvis-pro", serif;
-  font-size: 1.6em;
+  font-size: 1.3em;
   line-height: 1.6em;
   margin-top: 0.8em;
   width: 100%;
@@ -73,7 +75,11 @@ a:hover {
 .content-list li h3 {
   display: inline;
 }
-.content-list li:hover {
+
+#introduction p {
+  margin-bottom: 2rem;
+}
+#introduction li:hover {
   background-color: rgba(0, 0, 0, 0.03);
   transition: background-color 0.2s ease-in-out;
 }

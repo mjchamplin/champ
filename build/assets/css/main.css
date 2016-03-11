@@ -1,9 +1,9 @@
 @import url(reset.css);
 html { -webkit-font-smoothing: antialiased; }
 
-body { color: #0f0f0f; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; min-height: 100vh; }
+body { color: #0f0f0f; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; min-height: 100vh; background: #eee; }
 
-h1 { font-size: 4.5em; letter-spacing: -0.02em; font-family: "garvis-pro", serif; line-height: 1em; font-weight: normal; margin-bottom: 0.5em; }
+h1 { font-size: 3.5em; letter-spacing: -0.02em; font-family: "garvis-pro", serif; line-height: 1em; font-weight: normal; margin-bottom: 0.5em; }
 
 h2 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 0.8em; }
 
@@ -11,13 +11,15 @@ a { color: rgba(0, 0, 0, 0.6); text-decoration: none; font-style: italic; font-w
 
 a:hover { box-shadow: inset 0 -5px 0 #EBB762; }
 
-#inner { width: 100%; max-width: 1200px; margin: 4em auto; padding: 3em; background: #fff; }
+#inner { width: 100%; max-width: 1200px; margin: 4em auto; padding: 5em; background: #fff; box-shadow: 0px 0px 15px 0px #dddddd; }
 #inner p.description { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; margin-top: 0.8em; text-transform: uppercase; color: rgba(0, 0, 0, 0.45); }
-#inner .content { font-family: "garvis-pro", serif; font-size: 1.6em; line-height: 1.6em; margin-top: 0.8em; width: 100%; }
+#inner .content { font-family: "garvis-pro", serif; font-size: 1.3em; line-height: 1.6em; margin-top: 0.8em; width: 100%; }
 
 .content-list li { width: 100%; border-top: 1px solid #ccc; padding: 0.2em 0 0.2em 15%; font-size: 0.8em; }
 .content-list li p { margin-bottom: 0; display: inline; font-weight: 100; font-style: italic; }
 .content-list li h3 { display: inline; }
-.content-list li:hover { background-color: rgba(0, 0, 0, 0.03); transition: background-color 0.2s ease-in-out; }
+
+#introduction p { margin-bottom: 2rem; }
+#introduction li:hover { background-color: rgba(0, 0, 0, 0.03); transition: background-color 0.2s ease-in-out; }
 
 /*# sourceMappingURL=main.css.map */
