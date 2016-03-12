@@ -1,17 +1,20 @@
 @import url(reset.css);
 html { -webkit-font-smoothing: antialiased; }
 
-body { color: #0f0f0f; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; min-height: 100vh; background: #eee; }
+body { color: #0f0f0f; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; min-height: 100vh; background: #eee; }
+@media screen and (min-width: 600px) { body { font-size: 18px; } }
 
-h1 { font-size: 3em; letter-spacing: -0.02em; font-family: "garvis-pro", serif; line-height: 1.2em; font-weight: normal; margin-bottom: 0.5em; text-align: center; }
+h1 { font-size: 2.2em; letter-spacing: -0.02em; font-family: "garvis-pro", serif; line-height: 1.2em; font-weight: normal; margin-bottom: 0.5em; text-align: center; }
+@media screen and (min-width: 600px) { h1 { font-size: 3em; } }
 
 h2 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 0.8em; }
 
-a { color: rgba(0, 0, 0, 0.6); text-decoration: none; font-style: italic; font-weight: bold; transition: box-shadow 0.2s ease-in-out; }
+a { color: inherit; text-decoration: none; transition: box-shadow 0.2s ease-in-out; }
 
-a:hover { box-shadow: inset 0 -5px 0 #EBB762; }
+a:hover { box-shadow: inset 0 -3px 0 #7E78AC; }
 
-#inner { width: 100%; max-width: 1200px; margin: 4em auto; padding: 5em; background: #fff; }
+#inner { width: 100%; max-width: 1200px; margin: 4em auto; padding: 2em; background: #fff; }
+@media screen and (min-width: 600px) { #inner { padding: 5em; } }
 #inner p.description { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; margin-top: 0.8em; text-transform: uppercase; color: rgba(0, 0, 0, 0.45); }
 #inner .content { font-family: "garvis-pro", serif; font-size: 1.3em; line-height: 1.6em; margin-top: 0.8em; width: 100%; }
 
@@ -21,11 +24,11 @@ a:hover { box-shadow: inset 0 -5px 0 #EBB762; }
 
 #introduction p { margin-bottom: 2rem; }
 
-#headshot { max-width: 300px; height: auto; margin: 0 auto; text-align: center; display: block; border-radius: 50%; margin-bottom: 2em; }
+#headshot { max-width: 300px; width: 100%; height: auto; margin: 0 auto; text-align: center; display: block; border-radius: 50%; margin-bottom: 2em; }
 
-#red-right-angle { width: 900px; height: 900px; background: #4A90E2; opacity: 0.5; position: absolute; left: -450px; top: -450px; z-index: -1; transform: rotate(-45deg); }
+#red-right-angle { width: 900px; height: 900px; background: #BE1B3E; opacity: 0.6; position: absolute; left: -450px; top: -450px; z-index: -1; transform: rotate(-45deg); }
 
-#yellow-right-angle { width: 2200px; height: 900px; background: #B8E986; opacity: 0.5; position: absolute; left: -1250px; top: -450px; z-index: -1; transform: rotate(-74deg); }
+#yellow-right-angle { width: 2200px; height: 900px; background: #4880C4; opacity: 0.6; position: absolute; left: -1250px; top: -450px; z-index: -1; transform: rotate(-74deg); }
 
 li:hover { background-color: rgba(0, 0, 0, 0.03); transition: background-color 0.2s ease-in-out; }
 
