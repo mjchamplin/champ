@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  width: 100%;
   color: #0f0f0f;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -109,11 +110,12 @@ a:hover {
   height: 900px;
   background: #BE1B3E;
   opacity: 0.6;
-  position: absolute;
+  position: fixed;
   left: -450px;
   top: -450px;
   z-index: -1;
   transform: rotate(-45deg);
+  overflow: hidden;
 }
 
 #yellow-right-angle {
@@ -121,11 +123,16 @@ a:hover {
   height: 900px;
   background: #4880C4;
   opacity: 0.6;
-  position: absolute;
+  position: fixed;
   left: -1250px;
   top: -450px;
   z-index: -1;
   transform: rotate(-74deg);
+  overflow: hidden;
+}
+
+.noverflow {
+  overflow: hidden;
 }
 
 li:hover {
