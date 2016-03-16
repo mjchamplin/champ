@@ -24,7 +24,7 @@ a:hover { box-shadow: inset 0 -3px 0 #7E78AC; }
 
 #introduction p { margin-bottom: 2rem; }
 
-#headshot { max-width: 300px; width: 100%; height: auto; margin: 0 auto; text-align: center; display: block; border-radius: 50%; margin-bottom: 2em; }
+#headshot { max-width: 300px; width: 60%; height: auto; margin: 0 auto; text-align: center; display: block; border-radius: 50%; margin-bottom: 2em; }
 
 #red-right-angle { width: 900px; height: 900px; background: #BE1B3E; opacity: 0.6; position: fixed; left: -450px; top: -450px; z-index: -1; transform: rotate(-45deg); overflow: hidden; }
 
