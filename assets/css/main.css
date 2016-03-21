@@ -66,6 +66,22 @@ a:hover {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.45);
 }
+#inner .social {
+  margin-top: 2em;
+}
+#inner .social ul.icons {
+  text-align: center;
+}
+#inner .social ul.icons li {
+  display: inline;
+  margin-right: 1em;
+}
+#inner .social ul.icons li:last-child {
+  margin-right: 0;
+}
+#inner .social ul.icons .fa {
+  font-size: 1.6rem;
+}
 #inner .content {
   font-family: "garvis-pro", serif;
   font-size: 1.3em;

@@ -16,6 +16,11 @@ a:hover { box-shadow: inset 0 -3px 0 #7E78AC; }
 #inner { width: 100%; max-width: 1200px; margin: 4em auto; padding: 2em; background: #fff; }
 @media screen and (min-width: 600px) { #inner { padding: 5em; } }
 #inner p.description { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; margin-top: 0.8em; text-transform: uppercase; color: rgba(0, 0, 0, 0.45); }
+#inner .social { margin-top: 2em; }
+#inner .social ul.icons { text-align: center; }
+#inner .social ul.icons li { display: inline; margin-right: 1em; }
+#inner .social ul.icons li:last-child { margin-right: 0; }
+#inner .social ul.icons .fa { font-size: 1.6rem; }
 #inner .content { font-family: "garvis-pro", serif; font-size: 1.3em; line-height: 1.6em; margin-top: 0.8em; width: 100%; }
 
 .content-list li { width: 100%; border-top: 1px solid #ccc; padding: 0.2em 0 0.2em 15%; font-size: 0.8em; }
