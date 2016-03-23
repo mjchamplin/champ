@@ -11,7 +11,7 @@ module.exports = function(grunt) {
       },
       build: {
         options: {
-          style: 'compact'
+          style: 'compressed'
         },
         files: {
           'build/assets/css/main.css': 'assets/css/main.sass' 
