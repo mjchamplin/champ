@@ -156,4 +156,9 @@ li:hover {
   transition: background-color 0.2s ease-in-out;
 }
 
+#twitter-widget-0 {
+  margin: 2em auto;
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
