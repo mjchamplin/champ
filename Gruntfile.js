@@ -76,19 +76,19 @@ module.exports = function(grunt) {
     
     secret: grunt.file.readJSON('secret.json'),
     sftp: {
-      deploy: {
+      staging: {
         files: {
           "./": "build/**"
         },
         options: {
-          path: 'public_html/',
+          path: '/var/www/champlin/public_html',
           host: '<%= secret.host %>',
           username: '<%= secret.username %>',
           password: '<%= secret.password %>',
           showProgress: true,
           srcBasePath: "build/",
-          destBasePath: "public_html/",
-          //createDirectories: true
+          //destBasePath: "public_html/",
+          createDirectories: true
         }
       }
     },
@@ -100,7 +100,7 @@ module.exports = function(grunt) {
           username: '<%= secret.username %>',
           password: '<%= secret.password %>'
         }
-      }
+      }      
     },    
     
     watch: {
@@ -120,6 +120,6 @@ module.exports = function(grunt) {
   
   grunt.registerTask('default', ['sass:dist']);
   grunt.registerTask('build', ['clean', 'copy', 'sass:build','imagemin', 'uglify']);
-  grunt.registerTask('deploy', ['sshexec']);
-  grunt.registerTask('ssh', ['sshexec']);
+  grunt.registerTask('deploy:production', ['sshexec:deploy']);
+  grunt.registerTask('deploy:stage', ['sftp:staging']);
 };
